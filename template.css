@@ -1,3 +1,59 @@
+.hover-effect {
+    background: linear-gradient( to bottom, #d3a610 0%, #da9f47 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+    color: #000;
+    text-decoration: none;
+    transition: background-size .2s;
+}
+
+.hover-effect:hover {
+    background-size: 4px 50px;
+}
+
+.logo {
+    max-width: 80px;
+}
+
 body {
-    background-color: aqua;
+    /* background-color: #150d8a; */
+    /* background-image: linear-gradient(#b18200, #130b83); */
+    background-image: linear-gradient(#18a0aa, #0e0591);
+    /* background-image: linear-gradient(#0c00b1, #977003); */
+}
+
+.jumbotron {
+    /* background-color: rgba(146, 146, 146, 0.26); */
+    height: 400px;
+    color: white;
+    /* image found here: https://unsplash.com/photos/cBx1EygM3BM */
+    background-image: url("imgs/Downtown_Boise.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-posirgba(3, 2, 2, 0.329)ter; */
+    margin-top: 7.4rem;
+}
+
+.heading {
+    font-size: 4.25rem;
+    background-color: rgba(42, 76, 148, 0.747);
+    width: fit-content;
+    margin-right: 0px;
+    padding: 0.25rem;
+}
+
+.sub-heading {
+    font-size: 2.5rem;
+    background-color: rgba(42, 76, 148, 0.747);
+    width: fit-content;
+    padding: 0.25rem;
+}
+
+.jumbo-logo {
+    max-width: 250px;
+}
+
+hr {
+    border-top: 2px solid rgba(160, 160, 160, 0.219);
 }
