@@ -1,15 +1,39 @@
-.hover-effect {
-    background: linear-gradient( to bottom, #d3a610 0%, #da9f47 100%);
-    background-position: 0 100%;
-    background-repeat: repeat-x;
-    background-size: 4px 4px;
-    color: #000;
-    text-decoration: none;
-    transition: background-size .2s;
+.navbar-title {
+    font-size: 2rem;
 }
 
-.hover-effect:hover {
-    background-size: 4px 50px;
+.showcase-blurb {
+    padding: 0.5rem;
+    border: 2px solid rgb(255, 198, 30);
+}
+
+.footerLink, .footerLink>span {
+    position: relative;
+    text-decoration: none;
+    line-height: 24px;
+}
+
+.footerLink:before, .footerLink:after, .footerLink>span:before, .footerLink>span:after {
+    content: '';
+    position: absolute;
+    transition: transform .5s ease;
+}
+
+.footerLink {
+    padding-top: 10px;
+}
+
+.footerLink:before {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: rgb(255, 198, 30);
+    transform: scaleX(0);
+}
+
+.footerLink:hover:before {
+    transform: scaleX(1);
 }
 
 .logo {
@@ -17,22 +41,22 @@
 }
 
 body {
+    background-color: rgb(24, 26, 27) !important;
+    /* background-color: rgb(55, 58, 61); */
     /* background-color: #150d8a; */
     /* background-image: linear-gradient(#b18200, #130b83); */
-    background-image: linear-gradient(#18a0aa, #0e0591);
+    /* background-image: linear-gradient(#18a0aa, #0e0591); */
     /* background-image: linear-gradient(#0c00b1, #977003); */
 }
 
 .jumbotron {
-    /* background-color: rgba(146, 146, 146, 0.26); */
-    height: 400px;
+    height: 450px;
     color: white;
     /* image found here: https://unsplash.com/photos/cBx1EygM3BM */
     background-image: url("imgs/Downtown_Boise.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-posirgba(3, 2, 2, 0.329)ter; */
-    margin-top: 7.4rem;
+    margin-top: 5rem;
 }
 
 .heading {
@@ -55,5 +79,6 @@ body {
 }
 
 hr {
-    border-top: 2px solid rgba(160, 160, 160, 0.219);
+    border-top: 2px solid rgb(182, 182, 182) !important;
+    /* color: rgb(255, 198, 30); */
 }
