@@ -1,3 +1,17 @@
+#construction-header {
+    width: 100%;
+    height: 65px;
+    background-color: yellow;
+}
+
+.header-text-lg {
+    font-size: 1.5rem;
+}
+
+.header-text-sm {
+    font-size: 1rem;
+}
+
 .navbar-title {
     font-size: 2rem;
 }
@@ -60,7 +74,9 @@ body {
 .jumbotron {
     height: 350px;
     color: white;
-    margin-top: 5rem;
+    /* Used without construction notice */
+    /*margin-top: 5rem;*/
+    margin-top: 9rem;
 }
 
 .boise-background {
