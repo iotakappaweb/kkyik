@@ -63,6 +63,19 @@ body {
     background-color: rgb(24, 26, 27) !important;
 }
 
+.dark {
+    background-color: rgb(24, 26, 27) !important;
+    border-color: rgb(24, 26, 27) !important;
+}
+
+.card-border {
+    border: 2px solid rgba(255, 198, 30, 0.7) !important;
+}
+
+.card {
+    width: 18rem;
+}
+
 .tab {
     text-indent: 40px;
 }
@@ -81,7 +94,7 @@ body {
 }
 
 .navbar-margin {
-    margin-top: 140px;
+    margin-top: 145px;
 }
 
 .boise-background {
@@ -114,5 +127,4 @@ body {
 
 hr {
     border-top: 2px solid rgb(182, 182, 182) !important;
-    /* color: rgb(255, 198, 30); */
 }
