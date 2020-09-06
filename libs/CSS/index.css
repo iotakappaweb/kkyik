@@ -63,6 +63,24 @@ body {
     background-color: rgb(24, 26, 27) !important;
 }
 
+.input-label {
+    display: block;
+    text-align: left;
+}
+
+.input-entry {
+    display: block;
+    width: 100%;
+    border: 1px solid #ABB0B2;
+    border-radius: 3px;
+    line-height: 2rem;
+    text-indent: 1%;
+}
+
+.required {
+    color: red;
+}
+
 .dark {
     background-color: rgb(24, 26, 27) !important;
     border-color: rgb(24, 26, 27) !important;
