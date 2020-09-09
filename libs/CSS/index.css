@@ -147,6 +147,10 @@ hr {
     border-top: 2px solid rgb(182, 182, 182) !important;
 }
 
+textarea {
+    height: 100px;
+}
+
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -161,8 +165,4 @@ hr {
     left: 0;
     width: 100%;
     height: 100%;
-}
-
-.width-80 {
-    max-width: 80%;
 }
