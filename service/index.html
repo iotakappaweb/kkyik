@@ -96,20 +96,38 @@
 
 <div class="container text-white text-center my-4">
     <h1 class="display-3">Service</h1>
+    <div class="container my-3">
+        <div class="row justify-content-center">
+            <div class="col-8">
+                <hr>
+            </div>
+        </div>
+    </div>
     <div class="row justify-content-center align-items-center">
         <div class="col-9 col-md-7 col-lg-6 d-flex justify-content-center my-4 align-items-center">
-            <img class="img-fluid rounded-10px" src="../imgs/Downtown_Boise.jpg" alt="">
+            <img class="img-fluid rounded-10px" src="../imgs/officer-headshots/anthony-cropped.jpg" alt="">
         </div>
         <div class="col-12 col-lg-6 my-4 my-md-2 justify-content-center align-items-center">
             <div class="row justify-content-center">
                 <div class="col-10 text-center">
-                    <h1 class="display-4">Our Service</h1>
+                    <!--                    <h1 class="display-4">Our Service</h1>-->
                     <p class="lead p-3 showcase-blurb">Hey, I'm Anthony, the Vice President of Service. As the VPS, I am
                         in charge of organizing our projects and events. KKPsi is a service-based fraternity. We use
                         service and volunteer work to give back to our local musical community.
                     </p>
+                    <button onclick="document.getElementById('service-request-form').scrollIntoView()"
+                            class="btn btn-outline-primary">Request a service!
+                    </button>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
+
+<div class="container my-3">
+    <div class="row justify-content-center">
+        <div class="col-8">
+            <hr>
         </div>
     </div>
 </div>
@@ -133,9 +151,10 @@
                 <img class="card-img-top" src="../imgs/branding/ik-icon.png" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title card-title-custom">Move-In</h5>
-                    <p class="card-text showcase-blurb lead">Each year, we assist first-year band members who are moving into
-                        on-campus housing. This allows new members to have a friendly face within the band before the
-                        season event starts!</p>
+                    <p class="card-text showcase-blurb lead">Each year, we assist first-year band members who are moving
+                        into on-campus housing. This allows new members to have a friendly face within the band before
+                        the season event starts!
+                    </p>
                 </div>
             </div>
         </div>
@@ -144,9 +163,10 @@
                 <img class="card-img-top" src="../imgs/Downtown_Boise.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title card-title-custom">High School Honor Band Clinic</h5>
-                    <p class="card-text showcase-blurb lead">Each February, local high school bands prepare for their
-                        festival performances. We put on a clinic to allow them to rehearse their music with experienced
-                        music professors.</p>
+                    <p class="card-text showcase-blurb lead" id="service-request-form">Each February, local high school
+                        bands prepare for their festival performances. We put on a clinic to allow them to rehearse
+                        their music with experienced music professors.
+                    </p>
                 </div>
             </div>
         </div>
