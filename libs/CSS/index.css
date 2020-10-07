@@ -67,6 +67,10 @@ body {
     background-color: rgb(24, 26, 27) !important;
 }
 
+html {
+    scroll-behavior: smooth !important;
+}
+
 .card-title-custom {
     font-size: 2.3rem !important;
 }
@@ -199,3 +203,4 @@ textarea {
     width: 100%;
     height: 100%;
 }
+
