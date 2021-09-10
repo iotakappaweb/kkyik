@@ -3,8 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script>
+        window.onload = e => {
+            fetch('https://ik-kkpsi.org/views/partials/header.html')
+                .then(data => {
+                    return data.text();
+                })
+                .then(data => {
+                    document.getElementById('header').innerHTML = data;
+                });
+        }
+    </script>
 </head>
 <body>
+<div class="header">
 
+</div>
 </body>
 </html>
