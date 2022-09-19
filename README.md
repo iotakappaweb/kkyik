@@ -24,7 +24,7 @@ If the readme can be improved in any way then do it! Always remember that you wi
 
 ## Resources
 ### Previous Web Admins
-[2022 - 2023] Bree Latimer (breelatimer@u.boisestate.edu)
-[2021 - 2022] Philip Bruce (phillipbruce@u.boisestate.edu)
+#### [2022 - 2023] Bree Latimer (breelatimer@u.boisestate.edu)
+#### [2021 - 2022] Philip Bruce (phillipbruce@u.boisestate.edu)
 
 Iota Pi Family Tree Site: https://www.iotapi.com/wp/wp-content/themes/iotapi/staticpages/familytree/index.html
