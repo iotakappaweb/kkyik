@@ -87,7 +87,7 @@ function getTree() {
    var data;
    // make a synchronous ajax call to read the family tree page
    $.ajax({
-      url: "/wiki/index.php/Family_Tree",
+      url: "/wiki/index.php/Family_Tree", // TODO: Make sure this is the correct path
       async: false,
       success: function(result) {
          // read html to obtain array of parent nodes (all of which are ordered lists <ol>)
