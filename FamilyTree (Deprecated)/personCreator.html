@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="personCreator.css">
+
+    <title>Create Family Trees</title>
+</head>
+
+<body>
+    <div class="container my-5">
+        <h1 class="display-4 mb-5">Create a Person</h1>
+        <!-- Notice used to display changes to the user without needing to use alerts because those are f@^%ing annoying -->
+        <h4 class="my-4" id="notice"></h4>
+        <!-- The first form - used to create a new person... But not biologically. This is not a sex form. -->
+        <form id="personForm">
+            <!-- Also, using bootstrap here to scale with different device sizes. I didn't need to do it, but i felt like it. -->
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <label for="fullname">Full Name: <input type="text" id="fullname" name="fullname" required></label>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <label for="year">Year:
+                        <select name="year" id="year" required>
+                            <option value="">--</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="-1">Graduated</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <label for="nickname">Nickname: <input type="text" id="nickname" name="nickname" required></label>
+                </div>
+                <div class="col-md-6 col-lg-5">
+                    <label for="instrument">Instrument: <input type="text" id="instrument" name="instrument"
+                            required></label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <label for="big">Big: <input type="text" id="big" name="big" required></label>
+                    <p>
+                        <!-- The dropdown options for family are managed through JS and handed off by a database. -->
+                        <label for="family">Family:
+                            <select name="family" id="family" required>
+                                <option value="">--</option>
+                            </select>
+                        </label>
+                    </p>
+                </div>
+                <div class="col-md-6 col-lg-5">
+                    <label for="littles">Little(s): <input type="text" id="littles" name="littles"></label>
+                    <p>Note: Enter name(s) separated by commas. Leave blank if none.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <label for="photo">Photo: <input type="file" id="photo" name="photo"></label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <input type="submit" id="submitPerson">
+                </div>
+            </div>
+        </form>
+
+        <h1 class="display-4 my-5">Create a Family</h1>
+        <!-- This is a form to start a new family -->
+        <form id="familyForm">
+            <label for="familyName">Family Name: <input type="text" id="familyName" name="familyName"></label>
+            <input type="submit" id="submitFamily">
+        </form>
+    </div>
+
+    <script src="familyTrees.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
