@@ -24,6 +24,7 @@ If the readme can be improved in any way then do it! Always remember that you wi
 
 ## Resources
 ### Previous Web Admins
+#### [2023 - current] Corinna Armstrong (corinnaarmstrong@u.boisestate.edu)
 #### [2022 - 2023] Bree Latimer (breelatimer@u.boisestate.edu) [Current domain owner]
 #### [2021 - 2022] Philip Bruce (phillipbruce@u.boisestate.edu)
 
